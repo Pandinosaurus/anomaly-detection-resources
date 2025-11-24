@@ -97,7 +97,9 @@ Table of Contents
   * `4.18. Fairness and Bias in Outlier Detection <#418-fairness-and-bias-in-outlier-detection>`_
   * `4.19. Isolation-based Methods <#419-isolation-based-methods>`_
   * `4.20. Weakly-supervised Methods <#420-weakly-supervised-methods>`_
-  * `4.21. Emerging and Interesting Topics <#420-emerging-and-interesting-topics>`_
+  * `4.21. Emerging and Interesting Topics <#421-emerging-and-interesting-topics>`_
+  * `4.22. LLM and LLM Agents for Anomaly Detection <#422-llm-and-llm-agents-for-anomaly-detection>`_
+
 
 * `5. Key Conferences/Workshops/Journals <#5-key-conferencesworkshopsjournals>`_
 
@@ -196,7 +198,7 @@ NLP            AD-LLM: Benchmarking Large Language Models for Anomaly Detection 
 3. Toolbox & Datasets
 ---------------------
 
-[**Python**] `OpenAD <https://github.com/USC-FORTIS/OpenAD>`_: OpenAD is a multi-agent framework designed to automate anomaly detection across diverse data modalities, including tabular, graph, time series, and more. It integrates modular agents, model selection strategies, and configurable pipelines to support extensible and interpretable detection workflows. The framework is under active development and aims to support both academic research and practical deployment.
+[**Python+LLM Agent**] `OpenAD <https://github.com/USC-FORTIS/AD-AGENT>`_: AD-AGENT is a multi-agent framework designed to automate anomaly detection across diverse data modalities, including tabular, graph, time series, and more. It integrates modular agents, model selection strategies, and configurable pipelines to support extensible and interpretable detection workflows. The framework is under active development and aims to support both academic research and practical deployment.
 
 3.1. Multivariate Data
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -598,6 +600,19 @@ AD-LLM: Benchmarking Large Language Models for Anomaly Detection                
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
+4.22. LLM and LLM Agents for Anomaly Detection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+==============================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
+Paper Title                                                                                                     Venue                         Year   Ref                           Materials
+==============================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
+AD-LLM: Benchmarking Large Language Models for Anomaly Detection                                                ACL 2025 Findings             2024   [#Yang2024ADLLM]_             `[PDF] <https://arxiv.org/abs/2412.11142>`_, `[Code] <https://github.com/USC-FORTIS/AD-LLM>`_
+NLP-ADBench: NLP Anomaly Detection Benchmark                                                                    EMNLP 2025 Findings           2024   [#Li2024NLPADBench]_          `[PDF] <https://arxiv.org/abs/2412.04784>`_, `[Code] <https://github.com/USC-FORTIS/NLP-ADBench>`_
+AD-AGENT: A Multi-agent Framework for End-to-end Anomaly Detection                                              Findings of IJCNLP-AACL       2025   [#Yang2025ADAGENT]_           `[PDF] <https://arxiv.org/abs/2505.12594>`_, `[Code] <https://github.com/USC-FORTIS/AD-AGENT>`_
+==============================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
+
+
+
 ----
 
 5. Key Conferences/Workshops/Journals
@@ -754,7 +769,9 @@ References
 
 .. [#Li2024NLPADBench] Li, Y., Li, J., Xiao, Z., Yang, T., Nian, Y., Hu, X. and Zhao, Y. "NLP-ADBench: NLP Anomaly Detection Benchmark," arXiv preprint arXiv:2412.04784.
 
-.. [#Yang2024ADLLM] Yang, T., Nian, Y., Li, S., Xu, R., Li, Y., Li, J., Xiao, Z., Hu, X., Rossi, R., Ding, K., Hu, X. and Zhao, Y.  "AD-LLM: Benchmarking Large Language Models for Anomaly Detection," arXiv preprint arXiv:2412.11142.
+.. [#Yang2024ADLLM] Yang, T., Nian, Y., Li, S., Xu, R., Li, Y., Li, J., Xiao, Z., Hu, X., Rossi, R., Ding, K., Hu, X. and Zhao, Y. "AD-LLM: Benchmarking Large Language Models for Anomaly Detection." Findings of ACL, 2025.
+
+.. [#Yang2025ADAGENT] Yang, T., Liu, J., Siu, W., Wang, J., Qian, Z., Song, C., Cheng, C., Hu, X., and Zhao, Y. "AD-AGENT: A Multi-agent Framework for End-to-end Anomaly Detection." Findings of IJCNLP-AACL, 2025.
 
 .. [#Liu2008Isolation] Liu, F.T., Ting, K.M. and Zhou, Z.H., 2008, December. Isolation forest. In *International Conference on Data Mining*\ , pp. 413-422. IEEE.
 
